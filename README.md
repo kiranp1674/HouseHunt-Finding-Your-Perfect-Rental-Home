@@ -1,172 +1,153 @@
-# HouseHunt-Finding-Your-Perfect-Rental-Home
-🏠 HouseHunt – Finding Your Perfect Rental Home
-📌 Project Overview
+# 🏠 HouseHunt  
+### Smart Rental Property Management Platform
 
-HouseHunt is a full-stack MERN (MongoDB, Express.js, React.js, Node.js) web application designed to simplify the process of searching, listing, and booking rental properties.
+A full-stack MERN (MongoDB, Express.js, React.js, Node.js) web application designed to simplify property listing, searching, and booking.
 
-The platform connects renters and property owners while providing an admin panel to manage users, properties, and bookings efficiently.
+---
 
-🎯 Objective
+## 🚀 Project Overview
 
-Provide a centralized rental property platform
+HouseHunt is a rental property management platform that connects renters and property owners.  
+It provides secure authentication, role-based access control, and an admin dashboard for monitoring platform activities.
 
-Allow users to search and book properties
+---
 
-Enable owners to manage listings
+## 🎯 Features
 
-Provide admin-level control and monitoring
+### 👤 Renter
+- User Registration & Login (JWT Authentication)
+- Browse available properties
+- View property details
+- Book rental properties
+- View booking history
 
-🚀 Features
-👤 User Features
+### 🏢 Owner
+- Add new property listings
+- Update/Delete properties
+- View bookings for owned properties
 
-User Registration & Login
+### 🛡 Admin
+- Manage users
+- Monitor properties
+- Track all bookings
+- Maintain system integrity
 
-Browse available properties
+---
 
-View property details
+## 🛠 Tech Stack
 
-Book rental properties
+**Frontend**
+- React.js
+- HTML5
+- CSS3
+- JavaScript
+- Axios
 
-View booking history
+**Backend**
+- Node.js
+- Express.js
 
-🏢 Owner Features
+**Database**
+- MongoDB (Mongoose)
 
-Add new properties
+**Authentication**
+- JSON Web Token (JWT)
 
-Edit/Delete properties
+---
 
-View bookings for their properties
+## 📂 Project Structure
 
-Manage property listings
-
-🛡 Admin Features
-
-View all users
-
-View all properties
-
-Monitor bookings
-
-Manage system activities
-
-🛠 Tech Stack
-Frontend
-
-React.js
-
-HTML5
-
-CSS3
-
-JavaScript
-
-Axios
-
-Backend
-
-Node.js
-
-Express.js
-
-Database
-
-MongoDB (Mongoose)
-
-Authentication
-
-JWT (JSON Web Token)
-
-📂 Project Structure
-Main-Project/
+```
+HouseHunt-Finding-Your-Perfect-Rental-Home/
 │
-├── backend/
-│   ├── controllers/
-│   ├── routes/
-│   ├── schemas/
-│   ├── middlewares/
-│   └── index.js
+├── project/
+│   ├── backend/
+│   │   ├── controllers/
+│   │   ├── routes/
+│   │   ├── schemas/
+│   │   ├── middlewares/
+│   │   └── index.js
+│   │
+│   └── frontend/
+│       ├── src/
+│       ├── public/
+│       └── App.js
 │
-├── frontend/
-│   ├── src/
-│   ├── public/
-│   └── App.js
-│
-├── Project-Documentation/
 ├── Video/
+├── Project-Documentation/
 └── README.md
-⚙️ Installation & Setup
-🔹 1️⃣ Clone the Repository
-git clone https://github.com/yourusername/HouseHunt.git
-🔹 2️⃣ Backend Setup
-cd backend
+```
+
+
+---
+
+## ⚙️ Installation & Setup
+
+### 1️⃣ Clone the Repository
+https://github.com/kiranp1674/HouseHunt-Finding-Your-Perfect-Rental-Home.git
+
+
+---
+
+### 2️⃣ Backend Setup
+cd project/backend
 npm install
 npm start
 
-Server will run on:
 
+Runs on:
 http://localhost:5000
-🔹 3️⃣ Frontend Setup
-cd frontend
+
+
+---
+
+### 3️⃣ Frontend Setup
+cd project/frontend
 npm install
 npm start
 
-Application will run on:
 
+Runs on:
 http://localhost:3000
-🔄 Workflow
 
-User registers/logs in.
 
-User browses properties.
+---
 
-User books a property.
+## 🔐 Environment Variables
 
-Owner manages listings.
-
-Admin monitors platform activities.
-
-🔐 Environment Variables
-
-Create a .env file inside backend folder:
-
+Create a `.env` file inside the backend folder:
 MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_secret_key
+PORT=5000
 
-⚠️ Do not upload .env to GitHub.
 
-🎥 Demo Video
+⚠️ Do not upload `.env` to GitHub.
 
-👉 Add your YouTube or Google Drive link here.
+---
 
-📊 Future Enhancements
+## 🎥 Demo Video
 
-Payment Gateway Integration
+Add your YouTube or Google Drive demo link here.
 
-Email Notifications
+---
 
-Advanced Search Filters
+## 🚀 Future Improvements
 
-Property Reviews & Ratings
+- Payment Gateway Integration
+- Email Notifications
+- Advanced Search Filters
+- Property Reviews & Ratings
+- Cloud Deployment (Render / Vercel)
 
-Live Deployment (Render + Vercel)
+---
 
-💡 Key Learnings
+## 👨‍💻 Author
 
-Full-stack MERN architecture
+Kiran P  
+Full Stack MERN Developer
 
-REST API development
+---
 
-Authentication & Authorization
+## ⭐ Conclusion
 
-Database schema design
-
-Role-based access control
-
-👨‍💻 Developed By
-
-Kiran P
-Full Stack Developer (MERN Stack)
-
-⭐ Conclusion
-
-HouseHunt provides a complete rental property management solution using modern full-stack technologies and demonstrates real-world application development practices.
+HouseHunt demonstrates real-world full-stack development using the MERN stack, including authentication, REST APIs, role-based access control, and modular architecture.
